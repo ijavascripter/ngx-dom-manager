@@ -19,7 +19,7 @@ Simply include the directive and the parent component will have access to its me
 
 ```typescript
 import {Component, ElementRef, ViewChild} from '@angular/core';
-import {NgxDomManagerDirective} from "./ngx-dom-manager.directive";
+import { NgxDomManagerDirective } from '../../node_modules/ngx-dom-manager/src/index';
 
 @Component({
   selector: 'app-root',

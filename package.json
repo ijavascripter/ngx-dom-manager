@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "author": "Xavier Abelló",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/bundles/ngx-dom-manager.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/xabe80/ngx-dom-manager.git"
@@ -22,7 +24,7 @@
     "minify": "uglifyjs dist/bundles/ngx-dom-manager.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ngx-dom-manager.umd.min.js",
     "build": "npm run transpile && npm run package && npm run minify"
   },
-  "private": true,
+  "private": false,
   "peerDependencies": {
     "@angular/core": "^5.2.0",
     "rxjs": "^5.5.6"
