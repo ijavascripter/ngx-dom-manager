@@ -1,6 +1,6 @@
 {
   "name": "ngx-dom-manager",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Xavier Abelló",
   "license": "MIT",
   "main": "dist/bundles/ngx-dom-manager.umd.js",

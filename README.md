@@ -6,6 +6,10 @@ This will provide methods that can be called on the outside context to manage th
 
 The directive is in an early stage and more methods will be added. Contributors are welcome since it is an open source project.
 
+## Demo 
+
+https://plnkr.co/edit/mSIQktaTp18ip7Kulhpl?p=preview
+
 ## Installation
 
     npm install ngx-dom-manager
@@ -19,7 +23,7 @@ Simply include the directive and the parent component will have access to its me
 
 ```typescript
 import {Component, ElementRef, ViewChild} from '@angular/core';
-import { NgxDomManagerDirective } from '../../node_modules/ngx-dom-manager/src/index';
+import { NgxDomManagerDirective } from 'ngx-dom-manager';
 
 @Component({
   selector: 'app-root',
